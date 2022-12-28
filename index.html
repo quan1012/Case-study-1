@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-family: 'Open sans', sans-serif;
+        font-size: 14px;
+        color: #111;
+        line-height: 1.15;
+    }
+
+    #wrapper {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    .headline {
+        text-align: center;
+        margin: 40px 0px;
+    }
+
+    h3 {
+        font-size: 18px;
+        color: #111;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border: 1px solid #bebebe;
+        display: inline-block;
+        color: #555;
+        font-weight: 600;
+    }
+
+    ul.products {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    al.products li {
+        flex-basis: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+
+    ul.products li img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    ul.products li .product-top {
+        position: relative;
+        overflow: hidden;
+    }
+
+    ul.products li .product-top .product-thumb {
+        display: block;
+    }
+
+    ul.products li .product-top .product-thumb img {
+        display: block;
+    }
+
+    ul.products li .product-top a.buy-now {
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        background-color: #446084;
+        color: #fff;
+        padding: 10px 0px;
+        position: absolute;
+        bottom: -36px;
+        width: 100%;
+        transition: 0.25s ease-in-out;
+        opacity: 0.85;
+    }
+
+    ul.products li:hover a.buy-now {
+        bottom: 0px;
+    }
+
+    ul.products li .product-info {
+        padding: 10px 0px;
+    }
+
+    ul.products li .product-info a {
+        display: block;
+        text-decoration: none;
+    }
+
+    ul.products li .product-info a.product-cat {
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #9e9e9e;
+        padding: 3px 0px;
+    }
+
+    ul.products li .product-info a.product-name {
+        color: #334862;
+        padding: 3px 0px;
+
+    }
+
+    ul.products li .product-info .product-price {
+        color: #111;
+        padding: 2px 0px;
+        font-weight: 600;
+    }
+</style>
+<div id="wrapper">
+    <div class="headline">
+        <h3> Sản phẩm bán chạy</h3>
+    </div>
+    <ul class="products">
+        <li>
+            <div class="product-item">
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://cf.shopee.vn/file/d4ca3f437cf113c1237a7151c51235d0_tn">
+                    </a>
+                    <a href="" class="buy-now">Mua ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Thương hiệu</a>
+                    <a href="" class="product-name"> Tên giày</a>
+                    <div class="product-price">Giá thành</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="product-item">
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://cf.shopee.vn/file/dc1f74e98aca832949eef4924b126e93">
+                    </a>
+                    <a href="" class="buy-now">Mua ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Thương hiệu</a>
+                    <a href="" class="product-name"> Tên giày</a>
+                    <div class="product-price">Giá thành</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="product-item">
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://cf.shopee.vn/file/45947ca169f233a1a09ae3a704bd67e3_tn">
+                    </a>
+                    <a href="" class="buy-now">Mua ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Thương hiệu</a>
+                    <a href="" class="product-name"> Tên giày</a>
+                    <div class="product-price">Giá thành</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="product-item">
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://cf.shopee.vn/file/5ab130787e909b7995a54cba5b4b1d07_tn">
+                    </a>
+                    <a href="" class="buy-now">Mua ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Thương hiệu</a>
+                    <a href="" class="product-name"> Tên giày</a>
+                    <div class="product-price">Giá thành</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="product-item">
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://assets.adidas.com/images/w_320,f_auto,q_auto,fl_lossy,c_fill,g_auto/95d6943dc72849cd8c8ead86012ed34f_9366/Giay_DJa_Bong_X_Speedflow.3_Firm_Ground_trang_GW7480_01_standard.jpg">
+                    </a>
+                    <a href="" class="buy-now">Mua ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Thương hiệu</a>
+                    <a href="" class="product-name"> Tên giày</a>
+                    <div class="product-price">Giá thành</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="product-item">
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://img.sosanhgia.com/images/3645886dfd08487a848e27b0f4f80957/giay-da-bong-san-co-nhan-tao-prowin-s50.jpeg">
+                    </a>
+                    <a href="" class="buy-now">Mua ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Thương hiệu</a>
+                    <a href="" class="product-name"> Tên giày</a>
+                    <div class="product-price">Giá thành</div>
+                </div>
+            </div>
+        </li>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
